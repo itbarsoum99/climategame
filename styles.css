@@ -195,6 +195,9 @@ em {
     margin-bottom: 5vh;
     height: auto;
   }
+  .one {
+    top: 70px;
+  }
   .two {
     top: 70px;
   }
