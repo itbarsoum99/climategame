@@ -42,18 +42,19 @@
     <section id="tycoonturns">
       <div class="vertmid">
         <h3>Tycoon Gameplay</h3>
-        <ul>
           <ol>
             <li>Roll die and move the appropriate number of spaces clockwise around the board</li>
             <ul>
-              <li>If ELECTION:</li>
+              <li>If they land on ELECTION:</li>
               <ul>
-                <li>Can fund extra dice rolls for any campaign ($1.5k per roll).</li>
+                <li>Can fund extra die rolls for any campaign ($1.5k per roll).</li>
                 <li>Each campaign rolls the die, and the higher wins. If one campaign loses, but has been donated to by tycoon, they can pay money to roll again.</li>
               </ul>
-              <li>If BUSINESS:</li>
+              <li>If they land on BUSINESS:</li>
               <ul>
                 <li>Draw a business card and do what it says</li>
+                <li>Make sure nobody else sees the card, unless the card says to play it immediately.</li>
+                <li>Business cards include tax evasion, extra revenue, etc.</li>
               </ul>
             </ul>
             <li>Build (optional)</li>
@@ -62,46 +63,175 @@
             </ul>
             <li>Lobby (optional)</li>
             <ul>
-              <li>Talk in secret with complacent lawmakers via whiteboard</li>
+              <li>Talk in secret with complacent lawmakers via whiteboard, get them to enact policies</li>
             </ul>
           </ol>
-        </ul>
       <button onclick="window.location.href='#complturns';">Complacent Lawmaker Gameplay</button>
       </div>
     </section>
     <section id="complturns">
       <div class="vertmid">
         <h3>Complacent Lawmaker Gameplay</h3>
+        <ol>
+          <li>Roll die and move the appropriate number of spaces clockwise around the board</li>
+          <ul>
+            <li>If they land on ELECTION:</li>
+            <ul>
+              <li>Can ask for money from tycoon for two die rolls ($1.5k needed to finance)</li>
+              <li>Roll die (1-5 = win, 6 = loss)</li>
+            </ul>
+            <li>If they land on POLICY:</li>
+            <ul>
+              <li>Can enact lenient policy (i.e. tax cuts down to 5% of revenue, open new regions of the map including the Arctic and Hawaii regions that are normally closed to power plants and drilling)</li>
+              <li>If they are in power, they need a 2, 3, 4, or 5 on the die to enact policy.</li>
+              <li>If they are not in power, they need exactly a 3 on the die to enact policy.</li>
+              <li>Can enact only one policy per turn</li>
+            </ul>
+          </ul>
+          <li>Engage in scandal (optional)</li>
+          <ul>
+            <li>Get foreign interference to ensure wins in two straight elections</li>
+            <li>Roll die: 1-3 impeached (progressives gain power), 4-6 successful</li>
+          </ul>
+        </ol>
       <button onclick="window.location.href='#progturns';">Progressive Politician Gameplay</button>
       </div>
     </section>
     <section id="progturns">
       <div class="vertmid">
         <h3>Progressive Politician Gameplay</h3>
-      <button onclick="window.location.href='#endofturn';">Turn-end Protocol</button>
+        <ol>
+          <li>Roll die and move the appropriate number of spaces around the board</li>
+          <ul>
+            <li>If they land on ELECTION:</li>
+            <ul>
+              <li>Roll the die (1-3 = loss, 4-6 = win)</li>
+            </ul>
+            <li>If they land on POLICY:</li>
+            <ul>
+              <li>Can enact crackdown policy (i.e. taxes up to 30% of revenue, closing Arctic and Hawaii areas)</li>
+              <li>If they are in power, they need a 2, 3, 4, or 5 on the die to enact policy.</li>
+              <li>If they are not in power, they need exactly a 3 on the die to enact policy.</li>
+              <li>Can enact only one policy per turn</li>
+            </ul>
+          </ul>
+          <li>Build (optional)</li>
+          <ul>
+            <li>Only if they are in power, can use tax revenue to build one per turn:</li>
+            <li>Clean energy ($1k), -1 to climate meter on every turn (up to three of these can be built in each game)</li>
+            <li>National parks ($500), set area of land where the tycoon cannot build (up to five of these can be built in each game, cannot be built where there is already a power plant)</li>
+          </ul>
+        </ol>
+              <button onclick="window.location.href='#endofturn';">Turn-end Protocol</button>
       </div>
     </section>
     <section id="endofturn">
       <div class="vertmid">
         <h3>End of Turn</h3>
-      <button onclick="window.location.href='#disaster';">Potential Disaster</button>
+        <ol>
+          <li>Tycoon collects revenue for round</li>
+          <ul>
+            <li>$700 for each power plant</li>
+          </ul>
+          <li>Taxes are collected if applicable</li>
+          <li>Climate meter is increased/decreased</li>
+          <li>After 10 turns, power plants start increasing the climate meter +1 each per turn.</li>
+          <li>Draw a "potential disaster" card and do what it says</li>
+        </ol>
+          <button onclick="window.location.href='#disaster';">Potential Disaster</button>
       </div>
     </section>
     <section id="disaster">
       <div class="vertmid">
-        <h3>Potential Disaster</h3>
+        <h3>Disaster</h3>
+        <ul>
+          <li>When a disaster card is drawn (1/3 potential disaster cards is a disaster card):</li>
+          <ol>
+            <li>Set a timer for 5 minutes</li>
+            <li>There is no moving around the board until disaster is solved</li>
+            <li>Relief bills must be passed with all lawmakers in agreement</li>
+            <li>Form of climate policy may be passed in the relief bills</li>
+            <li>After 5 minutes, rollbacks begin and power plants shut down (complacent politicians choose a policy to get rid of and progressive politicians choose a power plant to obliterate</li>
+            <ul>
+              <li>Reset a timer and increase by +5 minutes</li>
+              <li>This will happen whenever the timer goes off (after first time, 10 minutes later; after second time, 15 minutes later; etc.)</li>
+              <li>Consequences of this can be worsened based on what the card says</li>
+            </ul>
+            <li>Once relief bill is passed, normal gameplay resumes</li>
+          </ol>
+        </ul>
       <button onclick="window.location.href='#rules';">Rules</button>
       </div>
     </section>
     <section id="rules">
       <div class="vertmid">
         <h3>Rules</h3>
+        <ul>
+          <li>Power plants:</li>
+          <ul>
+            <li>Maximum of 2 per region</li>
+            <li>Raise climate meter +0.5 per turn until the tenth turn</li>
+            <li>Raise $700 each per turn</li>
+            <li>Maximum of seven overall, but tycoon only needs five to win the game (plus $5k)</li>
+          </ul>
+          <li>Donations:</li>
+          <ul>
+            <li>Tycoon can make a donation of up to $3k per turn (enough to fund two extra dice rolls)</li>
+            <li>Politicians cannot use tax money to fund campaigns</li>
+          </ul>
+          <li>Elections:</li>
+          <ul>
+            <li>Paid money for an extra roll goes back into bank (not as taxes)</li>
+            <li>Even if able to fund more, maximum of three dice rolls per election</li>
+          </ul>
+          <li>Policy:</li>
+          <ul>
+            <li>Policies available for majority use:</li>
+            <ul>
+              <li>Tax cuts down to 5%</li>
+              <li>Tax raises up to 30%</li>
+              <li>Opening regions (Arctic and Hawaii)</li>
+              <li>Closing regions (Arctic and Hawaii; no other regions may be closed)</li>
+              <li>Creating national parks (up to 5)</li>
+              <li>Building clean-energy power plants (up to 3)</li>
+            </ul>
+            <li>Other policies that require bipartisan support:</li>
+            <ul>
+              <li>Relief bills for disasters</li>
+              <li>Other policy ideas that you think of in-game can be implemented, but only with bipartisan support</li>
+            </ul>
+            <li>Each politician can enact only one policy per turn</li>
+          </ul>
+          <li>Gameplay:</li>
+          <ul>
+            <li>3-6 players.</li>
+            <li>If there are more than three players, there should be two complacent politicians (with four), then two progressive politicians (with five), then two tycoons (with six).</li>
+            <li>If there are multiple of any party, they play as a team and have one turn per full turn.</li>
+          </ul>
+          <li>Disaster:</li>
+          <ul>
+            <li>All lawmakers must agree on relief bill</li>
+          </ul>
+          <li>Lawmaking:</li>
+          <ul>
+            <li>Complacent lawmakers may enact pro-climate policy if the climate meter reaches one level from deadly</li>
+            <li>Progressive lawmakers may not enact anti-climate policy</li>
+          </ul>
+          <li>Players may agree on other rules ("laws") to implement during their game in order to change the game.</li>
+          <li>Outside of these rules, the instruction of gameplay, and any rules you create, <u>nothing is illegal</u>. Players may lie, cheat, or bluff to get the policies they want enacted.</li>
+        </ul>
       <button onclick="window.location.href='#gameend';">End of Game</button>
       </div>
     </section>
     <section id="gameend">
       <div class="vertmid">
         <h3>End of Game</h3>
+        <ul>
+          <li>The game ends when:</li>
+          <ul>
+            <li>The tycoon goes bankrupt (progressive politicians win)</li>
+            <li>The tycoon has 5 power plants and $5k at the end of a full turn (tycoon wins, complacent lawmakers win with tycoon)</li>
+            <li>The climate meter reaches the deadly level (tycoon wins, complacent lawmakers lose with progressive politicians)</li>
         <button onclick="window.location.href='/questions/';">Questions?</button>
       </div>
     </section>
