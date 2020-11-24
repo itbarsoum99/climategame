@@ -124,3 +124,38 @@ em {
   font-style: normal;
   color: #DEC79B;
 }
+
+@media (max-width: 800px) {
+  body {
+    padding-right: 20vw;
+  }
+}
+
+@media (pointer: coarse) {
+  body {
+    padding-right: 10vw;
+  }
+  h3 {
+    font-size: 40px;
+  }
+  hr {
+    width: 200px;
+  }
+  h2 {
+    font-size: 80px;
+  }
+  button {
+    font-size: 35px;
+  }
+  .up, .home {
+    width: 125px;
+  }
+  li {
+    font-size: 60px;
+  }
+  section {
+    height: auto;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+  }
+}
