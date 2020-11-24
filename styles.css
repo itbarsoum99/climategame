@@ -158,4 +158,7 @@ em {
   li {
     font-size: 40px;
   }
+  .hom {
+    visibility: hidden;
+  }
 }
