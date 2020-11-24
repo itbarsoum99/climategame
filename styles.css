@@ -151,6 +151,7 @@ em {
   }
   button {
     font-size: 35px;
+    padding: 30px;
   }
   .up, .home {
     width: 125px;
@@ -165,4 +166,6 @@ em {
     margin-top: 5vh;
     margin-bottom: 5vh;
     height: auto;
+  }
+  
 }
