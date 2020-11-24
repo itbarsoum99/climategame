@@ -161,4 +161,8 @@ em {
   .hom {
     visibility: hidden;
   }
+  section {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    height: auto;
 }
