@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Climate Game</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <a href="/"><img src="/home.png" class="home"></a>
+    <a href="#aboutthegame"><img src="/up.png" class="up"></a>
+    <section id="aboutthegame">
+      <div class="vertmid">
+        <h3>About</h3>
+        <hr>
+        <h2>A <em>game</em> created to <em>simulate the effects of climate change</em> and the consequences of a climate-complacent mindset that anyone can play.</h2>
+      <button onclick="window.location.href='#roles';">Instructions</button>
+      </div>
+    </section>
+    <section id="roles">
+      <div class="vertmid">
+        <h3>Roles</h3>
+        <p>
+        <ul>
+          <li>Oil Tycoon</li>
+          <ul>
+            <li>Wants to raise money to build power plants and get complacent lawmakers elected in order to be able to build those power plants.</li>
+            <li>Object: build 5 power plants and raise $5k off of them</li>
+          </ul>
+          <li>Complacent Lawmaker</li>
+          <ul>
+            <li>Wants to help the tycoon make money because their campaign is funded by the tycoon.</li>
+            <li>Object: win elections and subsequently implement policy to help the tycoon</li>
+          </ul>
+          <li>Progressive Politician</li>
+          <ul>
+            <li>Wants to enact climate policy to prevent the tycoon from building power plants and making money.</li>
+            <li>Object: prevent the climate meter from reaching the deadly level</li>
+          </ul>
+        </ul>
+      <button onclick="window.location.href='#tycoonturns';">Tycoon Gameplay</button>
+      </div>
+    </section>
+    <section id="tycoonturns">
+      <div class="vertmid">
+        <h3>Tycoon Gameplay</h3>
+        <ul>
+          <ol>
+            <li>Roll die and move the appropriate number of spaces clockwise around the board</li>
+            <ul>
+              <li>If ELECTION:</li>
+              <ul>
+                <li>Can fund extra dice rolls for any campaign ($1.5k per roll).</li>
+                <li>Each campaign rolls the die, and the higher wins. If one campaign loses, but has been donated to by tycoon, they can pay money to roll again.</li>
+              </ul>
+              <li>If BUSINESS:</li>
+              <ul>
+                <li>Draw a business card and do what it says</li>
+              </ul>
+            </ul>
+            <li>Build (optional)</li>
+            <ul>
+              <li>Build power plants in regions (2 per region maximum). Each power plant earns $700 at the end of each turn, and adds +0.5 to the climate meter at the end of each turn.</li>
+            </ul>
+            <li>Lobby (optional)</li>
+            <ul>
+              <li>Talk in secret with complacent lawmakers via whiteboard</li>
+            </ul>
+          </ol>
+        </ul>
+      <button onclick="window.location.href='#complturns';">Complacent Lawmaker Gameplay</button>
+      </div>
+    </section>
+    <section id="complturns">
+      <div class="vertmid">
+        <h3>Complacent Lawmaker Gameplay</h3>
+      <button onclick="window.location.href='#progturns';">Progressive Politician Gameplay</button>
+      </div>
+    </section>
+    <section id="progturns">
+      <div class="vertmid">
+        <h3>Progressive Politician Gamelay</h3>
+      <button onclick="window.location.href='#endofturn';">Turn-end Protocol</button>
+      </div>
+    </section>
+    <section id="endofturn">
+      <div class="vertmid">
+        <h3>End of Turn</h3>
+      <button onclick="window.location.href='#disaster';">Potential Disaster</button>
+      </div>
+    </section>
+    <section id="disaster">
+      <div class="vertmid">
+        <h3>Potential Disaster</h3>
+      <button onclick="window.location.href='#rules';">Rules</button>
+      </div>
+    </section>
+    <section id="rules">
+      <div class="vertmid">
+        <h3>Rules</h3>
+      <button onclick="window.location.href='#gameend';">End of Game</button>
+      </div>
+    </section>
+    <section id="gameend">
+      <div class="vertmid">
+        <h3>End of Game</h3>
+        <button onclick="window.location.href='/questions/';">Questions?</button>
+      </div>
+    </section>
+  </body>
+</html>
