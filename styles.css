@@ -158,6 +158,10 @@ em {
   color: #DEC79B;
 }
 
+.som {
+  visibility: hidden;
+}
+
 @media (max-width: 800px) {
   body {
     padding-right: 20vw;
@@ -189,6 +193,9 @@ em {
   }
   .hom {
     visibility: hidden;
+  }
+  .som {
+    visibility: visible;
   }
   section {
     margin-top: 5vh;
