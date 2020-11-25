@@ -274,9 +274,9 @@ em {
     height: auto;
   }
   #toppest {
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-    height: auto;
+    margin-top: 5vh !important;
+    margin-bottom: 5vh !important;
+    height: auto !important;
   }
   .one {
     top: 80px;
