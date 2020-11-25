@@ -113,6 +113,7 @@ section {
 h2 {
   font-family: "Playfair Display";
   font-weight: 600;
+  font-size: 30px;
 }
 
 h3 {
@@ -156,11 +157,12 @@ button {
   transition: 0.3s;
   color: white;
   font-weight: 400;
+  font-size: 14px;
 }
 
 button:hover {
   background-color: #d3b57b;
-  color: black;
+  color: #18181E;
   cursor: pointer;
 }
 
