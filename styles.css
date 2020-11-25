@@ -168,24 +168,6 @@ button:focus {
   outline: -webkit-focus-ring-color auto 0px;
 }
 
-.sub {
-  border: 1px solid transparent;
-  background-color: transparent;
-  font-family: 'Source Code Pro', monospace;
-  transition: 0.3s;
-  color: white;
-  font-weight: 400;
-}
-
-.sub:hover {
-  color: black;
-  background-color: #d3b57b;
-  cursor: pointer;
-}
-
-.sub:focus {
-  outline: -webkit-focus-ring-color auto 0px;
-}
 
 .box {
   padding: 5px;
