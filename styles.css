@@ -241,6 +241,9 @@ em {
   h3, p, .box, .sub {
     font-size: 40px;
   }
+  .box {
+    border: 3px solid white;
+  }
   hr {
     width: 200px;
   }
