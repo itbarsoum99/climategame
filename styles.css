@@ -134,7 +134,7 @@ a:hover {
   text-decoration-color: #fff;
 }
 
-li {
+li, small {
   font-family: 'Source Code Pro', monospace;
 }
 
