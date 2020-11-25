@@ -238,7 +238,7 @@ em {
   body {
     padding-right: 15vw;
   }
-  h3, p, .box {
+  h3, p, .box, .sub {
     font-size: 40px;
   }
   hr {
@@ -247,7 +247,7 @@ em {
   h2 {
     font-size: 80px;
   }
-  button {
+  button, .sub {
     font-size: 35px;
     padding: 30px;
   }
