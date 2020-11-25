@@ -17,6 +17,10 @@ body {
   padding-right: 40vw;
 }
 
+body:hover {
+  cursor: default;
+}
+
 .up {
   position: fixed;
   bottom: 10px;
@@ -73,9 +77,6 @@ body {
   filter: invert(1);
 }
 
-body:hover {
-  cursor: default;
-}
 
 
 
@@ -84,10 +85,6 @@ section {
   width: 100%;
   display: table;
   font-weight: 300;
-}
-
-::selection {
-  background-color: transparent;
 }
 
 .vertmid {
@@ -186,6 +183,11 @@ button:focus {
 .box:focus{
   outline: -webkit-focus-ring-color none;
 }
+
+::selection {
+  background-color: transparent;
+}
+
 
 em {
   font-style: normal;
