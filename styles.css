@@ -169,8 +169,7 @@ button:focus {
 }
 
 .sub {
-  padding: 1vw;
-  border: 2px solid #d3b57b;
+  border: 1px solid transparent;
   background-color: transparent;
   font-family: 'Source Code Pro', monospace;
   transition: 0.3s;
@@ -179,8 +178,8 @@ button:focus {
 }
 
 .sub:hover {
-  background-color: #d3b57b;
   color: black;
+  background-color: #d3b57b;
   cursor: pointer;
 }
 
@@ -250,7 +249,7 @@ em {
   h2 {
     font-size: 80px;
   }
-  button, .sub {
+  button {
     font-size: 35px;
     padding: 30px;
   }
