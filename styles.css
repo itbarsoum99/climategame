@@ -238,7 +238,7 @@ em {
   body {
     padding-right: 15vw;
   }
-  h3, p {
+  h3, p, .box {
     font-size: 40px;
   }
   hr {
