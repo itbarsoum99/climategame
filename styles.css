@@ -108,8 +108,8 @@ h3 {
 }
 
 a {
-  color: #DEC79B;
-  text-decoration-color: #DEC79B;
+  color: #d3b57b;
+  text-decoration-color: #d3b57b;
   transition: 0.3s;
 }
 
@@ -126,7 +126,7 @@ hr {
   width: 75px;
   margin-left: 0;
   height: 2px;
-  background-color: #DEC79B;
+  background-color: #d3b57b;
   border: none;
 }
 body::-webkit-scrollbar {
@@ -135,7 +135,7 @@ body::-webkit-scrollbar {
 
 button {
   padding: 1vw;
-  border: 2px solid #DEC79B;
+  border: 2px solid #d3b57b;
   background-color: transparent;
   font-family: 'Source Code Pro', monospace;
   transition: 0.3s;
@@ -144,18 +144,52 @@ button {
 }
 
 button:hover {
-  background-color: #DEC79B;
+  background-color: #d3b57b;
   color: black;
   cursor: pointer;
 }
 
 button:focus {
-  outline: -webkit-focus-ring-color auto 1px;
+  outline: -webkit-focus-ring-color auto 0px;
+}
+
+.sub {
+  padding: 1vw;
+  border: 2px solid #d3b57b;
+  background-color: transparent;
+  font-family: 'Source Code Pro', monospace;
+  transition: 0.3s;
+  color: white;
+  font-weight: 400;
+}
+
+.sub:hover {
+  background-color: #d3b57b;
+  color: black;
+  cursor: pointer;
+}
+
+.sub:focus {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+
+.box {
+  padding: 5px;
+  font-family: "Source Code Pro", monospace;
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid white;
+  color: white;
+  width: 300px;
+}
+
+.box:focus{
+  outline: -webkit-focus-ring-color none;
 }
 
 em {
   font-style: normal;
-  color: #DEC79B;
+  color: #d3b57b;
 }
 
 .som {
