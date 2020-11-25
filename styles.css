@@ -68,12 +68,16 @@ p {
   transition: 0.3s;
 }
 
-.one:hover {
-  cursor: pointer;
-  filter: invert(1);
+.four {
+  position: fixed;
+  top: 190px;
+  right: 10px;
+  width: 50px;
+  filter: invert(0.5);
+  transition: 0.3s;
 }
 
-.three:hover {
+.one:hover {
   cursor: pointer;
   filter: invert(1);
 }
@@ -83,7 +87,15 @@ p {
   filter: invert(1);
 }
 
+.three:hover {
+  cursor: pointer;
+  filter: invert(1);
+}
 
+.four:hover {
+  cursor: pointer;
+  filter: invert(1);
+}
 
 
 section {
@@ -198,6 +210,18 @@ button:focus {
 em {
   font-style: normal;
   color: #d3b57b;
+}
+
+#home section {
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+  height: auto;
+}
+
+#toppest {
+  margin-top: 0vh !important;
+  margin-bottom: 0vh !important;
+  height: 100vh !important;
 }
 
 .som {
