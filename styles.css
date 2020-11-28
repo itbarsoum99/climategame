@@ -411,4 +411,8 @@ em {
   .three {
     top: 225px;
   }
+  .hamburger__container {
+    width: 95px;
+    height: 63.33px;
+  }
 }
