@@ -5,6 +5,7 @@ document.querySelector(".hamburger").addEventListener("click", (e) => {
 
 function myFunction() {
   var x = document.getElementById("mynav");
+  var y = document.getElementById("newbkg");
   if (x.style.display === "block") {
     x.style.transition = "all 0.5s";
     x.style.display = "none";
