@@ -411,8 +411,9 @@ em {
   .three {
     top: 245px;
   }
-  .hamburger__container {
-    width: 95px;
-    height: 80px;
+  .hamburger {
+    display:none;
   }
+  #mynav {
+    display: block;
 }
