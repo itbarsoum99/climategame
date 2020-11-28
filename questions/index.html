@@ -6,10 +6,18 @@
   <link rel="shortcut icon" type="image/jpg" href="/favicon.png" />
 </head>
 <body>
-    <a href="/"><img src="/home.png" class="one"></a>
-    <a href="/instructions/"><img src="/dice.png" class="two hom"></a>
-    <a href="/questions/"><img src="/question.png" class="four hom"></a>
-    <a href="https://drive.google.com/drive/folders/19JUOHmW2DJyf2LhOBzbs3T0VFnAcp4r7?usp=sharing" target="_blank"><img src="/download.png" class="three hom"></a>
+    <a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
+      <div class="hamburger__container">
+        <div class="hamburger__inner"></div>
+        <div class="hamburger__hidden"></div>
+      </div>
+    </a>
+    <div id="mynav">
+      <a href="/"><img src="/home.png" class="one"></a>
+      <a href="/instructions/"><img src="/dice.png" class="two hom"></a>
+      <a href="/questions/"><img src="/question.png" class="four hom"></a>
+      <a href="https://drive.google.com/drive/folders/19JUOHmW2DJyf2LhOBzbs3T0VFnAcp4r7?usp=sharing" target="_blank"><img src="/download.png" class="three hom"></a>
+    </div>
   <section id="thetop">
   <div class="vertmid">
     <h2>Ask a <em>question</em></h2>
@@ -22,5 +30,7 @@
     </form>
   </div>
   </section>
+
+    <script src="/main.js"></script>
 </body>
 </html>
