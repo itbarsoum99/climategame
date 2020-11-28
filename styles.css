@@ -403,16 +403,16 @@ em {
     height: auto !important;
   }
   .one {
-    top: 95px;
+    top: 115px;
   }
   .two {
-    top: 95px;
+    top: 115px;
   }
   .three {
-    top: 225px;
+    top: 245px;
   }
   .hamburger__container {
     width: 95px;
-    height: 63.33px;
+    height: 80px;
   }
 }
