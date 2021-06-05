@@ -44,10 +44,24 @@
         <ul>
           <li><a target="_blank" href="https://drive.google.com/drive/folders/19JUOHmW2DJyf2LhOBzbs3T0VFnAcp4r7?usp=sharing">Google Drive Folder</a></li>
         </ul>
-        <button class="hom" onclick="window.location.href='#roles';">Roles</button>
       </div>
+      <button class="hom" onclick="window.location.href='#words';">Words</button>
     </section>
-
+    <section id="words">
+      <div class="vertmid">
+        <h3>Words</h3>
+        <ul>
+          <li>Power plant: a nonrenewable energy power plant built by the tycoon</li>
+          <li>Clean energy: a renewable energy power plant built by the government</li>
+          <li>Election: a change of power or a re-election of a political party to the majority of the Congress</li>
+          <li>Mines: a structure built by the tycoon to boost revenue in the power plants</li>
+          <li>Scandal: an action by the complacent lawmakers to ensure a majority in the next election</li>
+          <li>National parks: a structure built by the government to lower the climate meter and mitigate climate impacts</li>
+          <li>Disaster: an event that forces the government to pass a relief bill that can contain climate policy measures</li>
+          <li>Climate meter: a measurement of climate-change severity that increases and decreases due to gameplay factors</li>
+        </ul>
+      <button class="hom" onclick="window.location.href='#roles';">Roles</button>
+    </section>
     <section id="roles">
       <div class="vertmid">
         <h3>Roles</h3>
@@ -80,6 +94,9 @@
         </ul>
         <li>Print out the board, tokens, and cards from the <a  target="_blank" href="https://drive.google.com/drive/folders/19JUOHmW2DJyf2LhOBzbs3T0VFnAcp4r7?usp=sharing">Google Drive folder</a>.</li>
         <li>Randomly deal the role cards to each person. Have everyone reveal their roles and give them the appropriate card deck (if they are the tycoon). Place the "disaster" cards at the top of the board.</li>
+        <li>The climate meter begins two places from the bottom.</li>
+        <li>The tax rate begins at $75/plant/turn.</li>
+        <li>The government begins the game with $5k in revenue</li>
         <li>Have an election. The tycoon cannot donate to either campaign in this election. The complacent politicians and the progressive politicians will each roll the die. The higher roll will be in power at least until someone lands on an election space.</li>
         <li>To begin the game, give the tycoon $700 and the government with $2k. There should be an unappropriated money bank, a government bank, and a tycoon bank.</li>
         <li>The tycoon always goes first. If there are two tycoons, each will roll the die. The tycoon with the higher roll will then go first.</li>
@@ -108,7 +125,7 @@
             <li>Build (optional)</li>
             <ul>
               <li>Build power plants in regions (2 per region maximum). Each power plant earns $700 at the end of each turn, and adds +0.5 to the climate meter at the end of each turn. Costs $500 to build.</li>
-              <li>Build mines (1 per region maximum). Each mine boosts power plant revenue in that region by $100 per plant per turn. Costs $600 to build.</li>
+              <li>Build mines (1 per region maximum). Each mine boosts power plant revenue in that region by $100 per plant per turn. Costs $500 to build.</li>
               <li>Can build one thing per turn.</li>
             </ul>
             <li>Lobby (optional)</li>
@@ -132,6 +149,7 @@
             </ul>
             <li>If they land on POLICY:</li>
             <ul>
+              <li>Government gains $25 in revenue.</li>
               <li>Can enact lenient policy (i.e. tax cuts down to $75/plant/turn, open new regions of the map including the Arctic and Hawaii regions that are normally closed to power plants and drilling)</li>
               <li>If they are in power, they need a 2, 3, 4, or 5 on the die to enact policy.</li>
               <li>If they are not in power, they need exactly a 3 on the die to enact policy.</li>
@@ -140,7 +158,7 @@
           </ul>
           <li>Engage in scandal (optional)</li>
           <ul>
-            <li>Get foreign interference to ensure wins in two straight elections</li>
+            <li>Get foreign interference to ensure wins in the next election</li>
             <li>Roll die: 1-3 impeached (progressives gain power), 4-6 successful</li>
           </ul>
         </ol>
@@ -159,6 +177,7 @@
             </ul>
             <li>If they land on POLICY:</li>
             <ul>
+              <li>Government gains $25 in revenue.</li>
               <li>Can enact crackdown policy (i.e. taxes up to $400 per plant per turn, closing Arctic and Hawaii areas)</li>
               <li>If they are in power, they need a 2, 3, 4, or 5 on the die to enact policy.</li>
               <li>If they are not in power, they need exactly a 3 on the die to enact policy.</li>
@@ -169,7 +188,7 @@
           <ul>
             <li>Only if they are in power, can use tax revenue to build one per turn:</li>
             <li>Clean energy ($1k), -1 to climate meter on every turn (up to three of these can be built in each game)</li>
-            <li>National parks ($500), set area of land where the tycoon cannot build (up to five of these can be built in each game, cannot be built where there is already a power plant)</li>
+            <li>National parks ($500), set area of land where the tycoon cannot build (up to five of these can be built in each game, cannot be built where there is already a power plant), decreases climate meter by 0.5 levels each turn</li>
             <li>Can build one thing per turn.</li>
           </ul>
         </ol>
@@ -198,13 +217,14 @@
         <ul>
           <li>When a disaster card is drawn (1/2 potential disaster cards is a disaster card):</li>
           <ol>
-            <li>Set a timer for 5 minutes</li>
+            <li>Set a timer for 10 minutes</li>
             <li>There is no moving around the board until disaster is solved</li>
             <li>Relief bills must be passed with all lawmakers in agreement</li>
             <li>Form of climate policy may be passed in the relief bills</li>
+            <li>Building (clean energy, national parks, etc. that is within government power) can be secured through a disaster relief bill</li>
             <li>After 5 minutes, rollbacks begin and power plants shut down (complacent politicians choose a policy to get rid of and progressive politicians choose a power plant to obliterate).</li>
             <ul>
-              <li>Reset a timer and increase by +5 minutes</li>
+              <li>Reset a timer and decrease by -3 minutes</li>
               <li>This will happen whenever the timer goes off (after first time, 10 minutes later; after second time, 15 minutes later; etc.)</li>
               <li>Consequences of this can be worsened based on what the card says</li>
             </ul>
@@ -221,6 +241,7 @@
           <li>Power plants:</li>
           <ul>
             <li>Maximum of 2 per region</li>
+            <li>Maximum of 1 per state</li>
             <li>Raise climate meter +0.5 per turn until the tenth turn</li>
             <li>Raise $700 each per turn</li>
             <li>Maximum of seven overall, but tycoon only needs five to win the game (plus $5k)</li>
@@ -244,7 +265,7 @@
               <li>Opening regions (Arctic and Hawaii)</li>
               <li>Closing regions (Arctic and Hawaii; no other regions may be closed)</li>
               <li>Creating national parks (up to 5)</li>
-              <li>Building clean-energy power plants (up to 3)</li>
+              <li>Building clean energy (up to 3)</li>
               <li>Creating limit of one power plant in a specific region</li>
               <li>Increasing limit to three power plants in a specific region</li>
               <li>Creating $200/turn subsidies toward the tycoon</li>
@@ -271,6 +292,8 @@
           <ul>
             <li>Complacent lawmakers may enact pro-climate policy if the climate meter reaches one level from deadly</li>
             <li>Progressive lawmakers may not enact anti-climate policy</li>
+            <li>Each time a progressive politician or complacent lawmaker moves past a corner of the board, the government gains $100 in revenue. If they land ON the corner, they gain $200.</li>
+            <li>Each time a progressive politician or complacent lawmaker lands on business/policy, the government gains $25 in revenue.</li>
           </ul>
           <li>Players may agree on other rules ("laws") to implement during their game in order to change the game.</li>
           <li>Outside of these rules, the instruction of gameplay, and any rules you create, <u>nothing is illegal</u>. Players may lie, cheat, or bluff to get the policies they want enacted.</li>
@@ -285,7 +308,9 @@
           <li>The game ends when:</li>
           <ul>
             <li>The tycoon goes bankrupt (progressive politicians win)</li>
+            <li>The climate meter reaches the bottom (progressive politicians win, complacent lawmakers win with progressive politicians)</li>
             <li>The tycoon has 5 power plants and $5k at the end of a full turn (tycoon wins, complacent lawmakers win with tycoon)</li>
+            <li>The tycoon reaches $10,000 in net worth (tycoon wins, complacent lawmakers win with tycoon)</li>
             <li>The climate meter reaches the deadly level (tycoon wins, complacent lawmakers lose with progressive politicians)</li>
           </ul>
         </ul>
